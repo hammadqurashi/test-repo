@@ -54,7 +54,7 @@ const QtyManipulator = ({ isReverse = false }) => {
         <QtyInput />
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 items-center lg:items-start">
         <p className="font-bold text-lg">وسائل مساعدة</p>
         <div className="flex flex-wrap items-center gap-4 lg:gap-2">
           <Button bg="transparent" className="border px-2 py-2">
@@ -74,7 +74,7 @@ const QtyManipulator = ({ isReverse = false }) => {
 
 const BottomBar = () => {
   return (
-    <div className=" px-7 py-2">
+    <div className="shadow-lg rounded-lg px-10 py-4">
       <div className="grid gap-7 lg:gap-0 lg:grid-cols-3 items-center">
         <QtyManipulator />
         <div className="flex justify-center">

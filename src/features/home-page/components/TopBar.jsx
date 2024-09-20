@@ -8,7 +8,7 @@ import { logo } from "../../../assets";
 
 const TopBar = () => {
   return (
-    <div className="bg-[#6DCEF2] px-7 py-2 rounded-[46px]">
+    <div className="bg-[#6DCEF2] px-7 py-2 rounded-3xl md:rounded-[38px] lg:rounded-[46px]">
       <div className="grid gap-3 lg:gap-0 lg:grid-cols-3 items-center">
         <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
           <BtnLink rounded="18px">

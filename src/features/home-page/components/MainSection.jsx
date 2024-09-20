@@ -39,7 +39,7 @@ const movies = [
 const MainSection = () => {
   return (
     <div className="my-10 p-10 shadow-lg rounded-lg">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-5">
         {movies.map((movie, i) => (
           <MovieCard key={i} title={movie.title} img={movie.img} />
         ))}
