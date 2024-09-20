@@ -56,7 +56,7 @@ const QtyManipulator = ({ isReverse = false }) => {
 
       <div className="flex flex-col gap-2 items-center lg:items-start">
         <p className="font-bold text-lg">وسائل مساعدة</p>
-        <div className="flex flex-wrap items-center gap-4 lg:gap-2">
+        <div className="flex items-center gap-4 lg:gap-2">
           <Button bg="transparent" className="border px-2 py-2">
             <FiRefreshCw />
           </Button>
