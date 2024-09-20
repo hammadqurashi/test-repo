@@ -12,7 +12,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex items-center justify-center gap-1 px-6 py-2 text-base ${className}`}
+      className={`flex items-center justify-center gap-1 text-base ${className}`}
       onClick={handleClick}
       style={{
         background: bg,

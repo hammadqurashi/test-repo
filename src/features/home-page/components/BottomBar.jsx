@@ -48,7 +48,7 @@ const QtyManipulator = ({ isReverse = false }) => {
       } flex flex-col items-center justify-start gap-6`}
     >
       <div className="flex flex-col gap-2 w-full lg:w-1/2">
-        <Button bg="#000000" color="#ffffff" className="text-xs">
+        <Button bg="#000000" color="#ffffff" className="text-xs py-2">
           aa
         </Button>
         <QtyInput />
